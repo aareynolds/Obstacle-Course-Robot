@@ -1,0 +1,51 @@
+std_abs.h:70:3:constexpr double std::abs(double)	16	static
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+core_cm4.h:1679:22:void __NVIC_EnableIRQ(IRQn_Type)	16	static,ignoring_inline_asm
+core_cm4.h:1717:22:void __NVIC_DisableIRQ(IRQn_Type)	16	static,ignoring_inline_asm
+scanner.cpp:7:1:Scanner::Scanner(TIM_HandleTypeDef*, ADC_HandleTypeDef*, double*, uint32_t*)	24	static
+scanner.cpp:12:8:double Scanner::convert_lux(uint32_t)	56	static
+scanner.cpp:22:8:double Scanner::read_lux()	16	static
+scanner.cpp:28:6:void Scanner::sensor_set_position(int)	16	static
+scanner.cpp:32:5:int Scanner::pwm_to_rot_offset(int)	40	static
+scanner.cpp:48:5:int Scanner::scan_lights()	80	static
+scanner.cpp:108:5:int Scanner::scan_objects()	72	static
+scanner.cpp:152:8:double Scanner::scan_object_arb(int)	40	static
+scanner.cpp:175:8:double Scanner::scan_object_front()	16	static
+scanner.cpp:179:8:double Scanner::scan_object_left()	16	static
+scanner.cpp:183:8:double Scanner::scan_object_right()	16	static
+scanner.cpp:187:8:double Scanner::scan_light_front()	40	static
+allocator.h:131:7:std::allocator< <template-parameter-1-1> >::allocator() [with _Tp = double]	16	static
+allocator.h:139:7:std::allocator< <template-parameter-1-1> >::~allocator() [with _Tp = double]	16	static
+stl_vector.h:283:7:std::vector<_Tp, _Alloc>::vector(std::vector<_Tp, _Alloc>::size_type, const allocator_type&) [with _Tp = double; _Alloc = std::allocator<double>]	24	static
+stl_vector.h:433:7:std::vector<_Tp, _Alloc>::~vector() [with _Tp = double; _Alloc = std::allocator<double>]	24	static
+stl_vector.h:795:7:std::vector<_Tp, _Alloc>::reference std::vector<_Tp, _Alloc>::operator[](std::vector<_Tp, _Alloc>::size_type) [with _Tp = double; _Alloc = std::allocator<double>]	16	static
+new_allocator.h:79:7:__gnu_cxx::new_allocator<_Tp>::new_allocator() [with _Tp = double]	16	static
+new_allocator.h:86:7:__gnu_cxx::new_allocator<_Tp>::~new_allocator() [with _Tp = double]	16	static
+stl_vector.h:81:14:std::_Vector_base<double, std::allocator<double> >::_Vector_impl::~_Vector_impl()	16	static
+stl_vector.h:136:7:std::_Vector_base<_Tp, _Alloc>::_Vector_base(std::size_t, const allocator_type&) [with _Tp = double; _Alloc = std::allocator<double>]	24	static
+stl_vector.h:161:7:std::_Vector_base<_Tp, _Alloc>::~_Vector_base() [with _Tp = double; _Alloc = std::allocator<double>]	16	static
+stl_vector.h:1344:7:void std::vector<_Tp, _Alloc>::_M_default_initialize(std::vector<_Tp, _Alloc>::size_type) [with _Tp = double; _Alloc = std::allocator<double>]	24	static
+stl_vector.h:115:7:std::_Vector_base<_Tp, _Alloc>::_Tp_alloc_type& std::_Vector_base<_Tp, _Alloc>::_M_get_Tp_allocator() [with _Tp = double; _Alloc = std::allocator<double>]	16	static
+stl_construct.h:203:5:void std::_Destroy(_ForwardIterator, _ForwardIterator, std::allocator<_T2>&) [with _ForwardIterator = double*; _Tp = double]	24	static
+stl_vector.h:92:2:std::_Vector_base<_Tp, _Alloc>::_Vector_impl::_Vector_impl(const _Tp_alloc_type&) [with _Tp = double; _Alloc = std::allocator<double>]	16	static
+stl_vector.h:185:7:void std::_Vector_base<_Tp, _Alloc>::_M_create_storage(std::size_t) [with _Tp = double; _Alloc = std::allocator<double>]	16	static
+stl_vector.h:176:7:void std::_Vector_base<_Tp, _Alloc>::_M_deallocate(std::_Vector_base<_Tp, _Alloc>::pointer, std::size_t) [with _Tp = double; _Alloc = std::allocator<double>]	24	static
+stl_uninitialized.h:643:5:_ForwardIterator std::__uninitialized_default_n_a(_ForwardIterator, _Size, std::allocator<_Tp>&) [with _ForwardIterator = double*; _Size = unsigned int; _Tp = double]	24	static
+stl_construct.h:127:5:void std::_Destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = double*]	16	static
+allocator.h:133:7:std::allocator< <template-parameter-1-1> >::allocator(const std::allocator< <template-parameter-1-1> >&) [with _Tp = double]	16	static
+stl_vector.h:169:7:std::_Vector_base<_Tp, _Alloc>::pointer std::_Vector_base<_Tp, _Alloc>::_M_allocate(std::size_t) [with _Tp = double; _Alloc = std::allocator<double>]	16	static
+alloc_traits.h:461:7:static void std::allocator_traits<std::allocator<_CharT> >::deallocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::pointer, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = double]	24	static
+stl_uninitialized.h:574:5:_ForwardIterator std::__uninitialized_default_n(_ForwardIterator, _Size) [with _ForwardIterator = double*; _Size = unsigned int]	24	static
+stl_construct.h:117:9:static void std::_Destroy_aux<true>::__destroy(_ForwardIterator, _ForwardIterator) [with _ForwardIterator = double*]	16	static
+new_allocator.h:81:7:__gnu_cxx::new_allocator<_Tp>::new_allocator(const __gnu_cxx::new_allocator<_Tp>&) [with _Tp = double]	16	static
+alloc_traits.h:435:7:static _Tp* std::allocator_traits<std::allocator<_CharT> >::allocate(std::allocator_traits<std::allocator<_CharT> >::allocator_type&, std::allocator_traits<std::allocator<_CharT> >::size_type) [with _Tp = double]	16	static
+new_allocator.h:116:7:void __gnu_cxx::new_allocator<_Tp>::deallocate(__gnu_cxx::new_allocator<_Tp>::pointer, __gnu_cxx::new_allocator<_Tp>::size_type) [with _Tp = double]	24	static
+stl_uninitialized.h:543:9:static _ForwardIterator std::__uninitialized_default_n_1<true>::__uninit_default_n(_ForwardIterator, _Size) [with _ForwardIterator = double*; _Size = unsigned int]	32	static
+new_allocator.h:99:7:_Tp* __gnu_cxx::new_allocator<_Tp>::allocate(__gnu_cxx::new_allocator<_Tp>::size_type, const void*) [with _Tp = double]	24	static
+stl_algobase.h:784:5:_OI std::fill_n(_OI, _Size, const _Tp&) [with _OI = double*; _Size = unsigned int; _Tp = double]	24	static
+new_allocator.h:129:7:__gnu_cxx::new_allocator<_Tp>::size_type __gnu_cxx::new_allocator<_Tp>::max_size() const [with _Tp = double]	16	static
+stl_algobase.h:277:5:_Iterator std::__niter_base(_Iterator) [with _Iterator = double*]	16	static
+stl_algobase.h:749:5:typename __gnu_cxx::__enable_if<std::__is_scalar<_Tp>::__value, _OutputIterator>::__type std::__fill_n_a(_OutputIterator, _Size, const _Tp&) [with _OutputIterator = double*; _Size = unsigned int; _Tp = double]	40	static
+scanner.cpp:197:1:void __static_initialization_and_destruction_0(int, int)	16	static
+scanner.cpp:197:1:cpp)	8	static
+scanner.cpp:197:1:cpp)	8	static

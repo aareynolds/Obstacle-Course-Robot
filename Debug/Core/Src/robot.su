@@ -1,0 +1,24 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+timeout.hpp:6:7:void Timeout::timeout_start(int)	16	static
+timeout.hpp:14:7:bool Timeout::check_time()	24	static
+robot.cpp:7:1:Robot::Robot(Movement&, Scanner&, I2C_HandleTypeDef*)	32	static
+robot.cpp:21:6:void Robot::run()	80	static
+robot.cpp:247:6:void Robot::scan_lights()	24	static
+robot.cpp:259:5:int Robot::move_forward(ESpeed, int, bool)	80	static
+robot.cpp:310:5:int Robot::rotate(int)	32	static
+robot.cpp:334:6:void Robot::stop()	16	static
+robot.cpp:338:8:double angle_distance(double, double)	48	static
+robot.cpp:350:5:int Robot::target_heading(int, float)	56	static
+robot.cpp:382:6:void Robot::calibrate_mag()	48	static
+robot.cpp:413:7:float Robot::avg_heading(int)	64	static
+robot.cpp:436:7:float Robot::heading()	80	static
+robot.cpp:473:6:bool Robot::mag_ready()	24	static
+robot.cpp:483:18:Vector3<short int> Robot::get_mag()	24	static
+robot.cpp:495:18:Vector3<short int> Robot::get_accel()	24	static
+robot.cpp:507:6:void Robot::write_byte(uint8_t, uint8_t)	40	static
+robot.cpp:514:9:uint8_t Robot::receive_byte(uint8_t)	40	static
+stl_algobase.h:195:5:constexpr const _Tp& std::min(const _Tp&, const _Tp&) [with _Tp = short int]	16	static
+stl_algobase.h:219:5:constexpr const _Tp& std::max(const _Tp&, const _Tp&) [with _Tp = short int]	16	static
+robot.cpp:522:1:void __static_initialization_and_destruction_0(int, int)	16	static
+robot.cpp:522:1:cpp)	8	static
+robot.cpp:522:1:cpp)	8	static

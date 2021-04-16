@@ -1,0 +1,11 @@
+movement.cpp:4:1:Movement::Movement(TIM_HandleTypeDef*)	16	static
+movement.cpp:12:6:void Movement::move_forward(ESpeed)	16	static
+movement.cpp:18:6:void Movement::move_backward(ESpeed)	16	static
+movement.cpp:24:6:void Movement::turn_right(ESpeed)	16	static
+movement.cpp:29:6:void Movement::turn_left(ESpeed)	16	static
+movement.cpp:34:6:void Movement::move_forward_differential(ESpeed, ESpeed)	24	static
+movement.cpp:39:6:void Movement::move_stop()	16	static
+movement.cpp:48:6:void Movement::move_right_tread(int, int)	24	static
+movement.cpp:58:6:void Movement::move_left_tread(int, int)	24	static
+movement.cpp:68:6:void Movement::stop_right_tread()	16	static
+movement.cpp:72:6:void Movement::stop_left_tread()	16	static

@@ -1,0 +1,20 @@
+gthr-default.h:229:1:int __gthread_key_delete(__gthread_key_t)	16	static
+main.cpp:93:6:void HAL_TIM_IC_CaptureCallback(TIM_HandleTypeDef*)	40	static
+main.cpp:124:5:int main()	136	static
+main.cpp:206:6:void SystemClock_Config()	248	static
+main.cpp:271:13:void MX_ADC1_Init()	32	static
+main.cpp:327:13:void MX_I2C1_Init()	8	static
+main.cpp:373:13:void MX_LPUART1_UART_Init()	8	static
+main.cpp:421:13:void MX_USART3_UART_Init()	8	static
+main.cpp:469:13:void MX_OPAMP2_Init()	8	static
+main.cpp:501:13:void MX_TIM2_Init()	80	static
+main.cpp:573:13:void MX_TIM4_Init()	64	static
+main.cpp:636:13:void MX_TIM5_Init()	64	static
+main.cpp:695:13:void MX_USB_OTG_FS_PCD_Init()	8	static
+main.cpp:727:13:void MX_DMA_Init()	16	static
+main.cpp:749:13:void MX_GPIO_Init()	56	static
+main.cpp:815:1:int __io_putchar(int)	16	static
+main.cpp:827:6:void Error_Handler()	4	static
+main.cpp:833:1:void __static_initialization_and_destruction_0(int, int)	16	static
+main.cpp:833:1:cpp)	8	static
+main.cpp:833:1:cpp)	8	static
